@@ -11,7 +11,7 @@ function Video() {
     const [result, setResult] = useState([]);
     
     useEffect(() => {
-      classifier = ml5.imageClassifier("./tm-my-image-model(1)/model.json", () => {
+      classifier = ml5.imageClassifier("./tm-my-image-model/model.json", () => {
         navigator.mediaDevices
           .getUserMedia({ video: true, audio: false })
           .then((stream) => {

@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## DarkSpot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+DarkSpot
 
-In the project directory, you can run:
+An application used to detect when people, especially the elderly, are failling, using machine learning, built with React, Tensorflow, snd Twilio.
 
-### `npm start`
+## Project Status
+Complete
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Example:  
 
-### `npm run build`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm install` in both the main folder and the server folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Run Test Suite:  
 
-### `npm run eject`
+`npm test`  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To Start Server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start`  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To Visit App:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`localhost:3000`  
 
-## Learn More
+## How we did it 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This was a 24 hour long project built during PantherHacks 2022. Project goals included using technologies learned up until this point and familiarizing ourselves with documentation for new features.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Originally we wanted to build an application that allowed users to classify whether a mole was melanoma or not. We started this process by using the `create-react-app` boilerplate, then adding `react-router-dom`, `tailwindcss`, and `twilio`.  
 
-### Code Splitting
+One of the main challenges we ran into was the actual image classification and the video rendering. This lead us to spend a few hours on html videos, less common react depedency components, and overall Tensorflow-React collaboration. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At the end of the day, the technologies implemented in this project are React, React-Router-Dom, TailwindCSS, Twilio, Tensorflow, and ML5. We chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird design rabbit holes. In the next iteration we plan on making a stronger model and connecting the twilio backend to first responders.

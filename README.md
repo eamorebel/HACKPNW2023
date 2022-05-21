@@ -32,6 +32,10 @@ To Visit App:
 
 `localhost:3000`  
 
+To Send Twilio Messages:
+
+Contact one of our team members for the .env file information
+
 ## How we did it 
 
 This was a 24 hour long project built during PantherHacks 2022. Project goals included using technologies learned up until this point and familiarizing ourselves with documentation for new features.  

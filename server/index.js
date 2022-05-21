@@ -1,11 +1,11 @@
 const express = require('express'); 
 const cors = require('cors');
 const twilio = require('twilio'); 
+require("dotenv").config({ path: "../.env" });
 
-//twilio requirements -- Texting API 
 const accountSid = 'ACab2a361ba579f091288b02d6d753009b';
-const authToken = '3d8eaede6db9530ace7168e8e55e2b02'; 
-const client = new twilio(accountSid, authToken);
+const authToken = process.env.TWILIO_AUTH_TOKEN; 
+const client = new twilio(accountSid, authToken); 
 
 const app = express(); //alias
 

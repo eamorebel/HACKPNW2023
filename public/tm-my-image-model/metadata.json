@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.3.1","tmVersion":"2.4.4","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2022-05-21T15:08:48.572Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Falling Motion Detected","No Falling Detected","Patient Has Fallen"],"imageSize":224}

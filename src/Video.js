@@ -41,8 +41,8 @@ function Video() {
         <video class="mr-20"
           ref={videoRef}
           style={{transform: "scale(-1, 1)"}}
-          width="300"
-          height="150"
+          width="500"
+          height="300"
         />
         <div>
         {result.length > 0 && (

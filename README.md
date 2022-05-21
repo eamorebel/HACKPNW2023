@@ -1,7 +1,7 @@
-## DarkSpot
+## Second Wind
 
 
-DarkSpot
+Second Wind
 
 An application used to detect when people, especially the elderly, are failling, using machine learning, built with React, Tensorflow, snd Twilio.
 

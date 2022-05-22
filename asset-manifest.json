@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PantherHacks2022/static/css/main.bb22a0c1.css",
+    "main.js": "/PantherHacks2022/static/js/main.3c1b6347.js",
+    "static/js/787.10b8654d.chunk.js": "/PantherHacks2022/static/js/787.10b8654d.chunk.js",
+    "index.html": "/PantherHacks2022/index.html",
+    "main.bb22a0c1.css.map": "/PantherHacks2022/static/css/main.bb22a0c1.css.map",
+    "main.3c1b6347.js.map": "/PantherHacks2022/static/js/main.3c1b6347.js.map",
+    "787.10b8654d.chunk.js.map": "/PantherHacks2022/static/js/787.10b8654d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb22a0c1.css",
+    "static/js/main.3c1b6347.js"
+  ]
+}

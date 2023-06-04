@@ -226,56 +226,93 @@ https://templatemo.com/tm-569-edu-meeting
           <div class="accordions is-first-expanded">
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>About Edu Meeting HTML Template</span>
+                    <span>Inspiration</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
+                        <p>Our inspiration for IntelliWatch: Safeguarding Learning with Computer Vision stemmed from the need to address two crucial aspects of classroom management: learning engagement and learning integrity. We recognized that a significant amount of valuable classroom time is wasted on managing phone usage, diverting educators' attention from teaching. By detecting phones and other prohibited devices, we aimed to create a system that promotes focused learning and ensures academic integrity.</p>
                     </div>
                 </div>
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>HTML CSS Bootstrap Layout</span>
+                    <span>What it does</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a elit massa.<br><br>
-                        Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+                        <p>IntelliWatch utilizes Roboflow and YOLO (You Only Look Once) object detection to identify phones and other prohibited devices in the classroom environment. The system is designed to scan the classroom using strategically positioned cameras, enabling real-time detection of unauthorized device usage. When a phone or prohibited device is detected, the system triggers alerts or notifications, allowing educators to promptly address the situation and redirect students' attention back to the learning material.</p>
                     </div>
                 </div>
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>Please tell your friends</span>
+                    <span>How we built it</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit, at ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur velit.<br><br>
-                        Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor sapien et quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.</p>
+                        <p>To develop IntelliWatch, we leveraged the power of Roboflow and YOLO. We manually tagged the training data, annotated images, and drew bounding boxes around phones and prohibited devices. This annotated dataset was then used to train the YOLO model using Roboflow's platform. The trained model was integrated into our system, which utilized cameras to capture live video feeds from the classroom, feeding it into the YOLO model for object detection in real time.</p>
                     </div>
                 </div>
             </article>
+            <article class="accordion">
+              <div class="accordion-head">
+                  <span>Challenges we ran into</span>
+                  <span class="icon">
+                      <i class="icon fa fa-chevron-right"></i>
+                  </span>
+              </div>
+              <div class="accordion-body">
+                  <div class="content">
+                      <p>During the development process, we encountered challenges, particularly in the manual tagging of data and drawing accurate object detection boxes (on over 9000 images). Ensuring the quality and consistency of the training dataset required meticulous attention to detail and a significant amount of time. Additionally, fine-tuning the YOLO model for optimal performance and minimizing false positives and negatives presented its challenges.</p>
+                  </div>
+              </div>
+            </article>
+            <article class="accordion">
+            <div class="accordion-head">
+                <span>Accomplishments that we're proud of</span>
+                <span class="icon">
+                    <i class="icon fa fa-chevron-right"></i>
+                </span>
+            </div>
+            <div class="accordion-body">
+                <div class="content">
+                    <p>We take pride in successfully building IntelliWatch and implementing it in real-world classroom environments. Our system's ability to accurately detect phones and other prohibited devices, coupled with its real-time alerting mechanism, has the potential to improve classroom management and enhance teaching efficiency significantly. Through our efforts, we have developed a tool that can foster a focused learning environment, allowing educators to dedicate more time to teaching.</p>
+                </div>
+            </div>
+            </article>
+            <article class="accordion">
+              <div class="accordion-head">
+                  <span>What we learned</span>
+                  <span class="icon">
+                      <i class="icon fa fa-chevron-right"></i>
+                  </span>
+              </div>
+              <div class="accordion-body">
+                  <div class="content">
+                      <p>Throughout the development of IntelliWatch, we gained valuable insights into the process of training object detection models and deploying them in real-world scenarios. We learned the importance of carefully curating and annotating training data to ensure the model's accuracy. Moreover, we discovered the power of computer vision technology, such as YOLO, in addressing complex educational challenges</p>
+                  </div>
+              </div>
+          </article>
             <article class="accordion last-accordion">
                 <div class="accordion-head">
-                    <span>Share this to your colleagues</span>
+                    <span>What's next for IntelliWatch: Safeguarding Learning with Computer Vision</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br><br>
-                        Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi quis, convallis nisi.</p>
+                        <p>Looking ahead, we envision expanding the capabilities of IntelliWatch by incorporating edge computing with cameras. By processing the video feeds locally on edge devices, we can reduce latency and increase the system's responsiveness. Additionally, we plan to further refine the model's performance by continuously training it on larger and more diverse datasets. Our goal is to make SafetyNet a robust and widely applicable tool for classroom hazard detection, contributing to a safer and more productive learning environment for students and educators alike.
+                        </p>
                     </div>
                 </div>
             </article>

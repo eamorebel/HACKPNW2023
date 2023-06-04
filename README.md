@@ -32,3 +32,5 @@ Looking ahead, we envision expanding the capabilities of IntelliWatch by incorpo
 
 - [Website](https://eamorebel.github.io/JPS2023/index.html)
 - [Image Dataset](https://universe.roboflow.com/university-of-north-texas-towap/mobile-phone-detection-in-school-enviroments/dataset/4)
+- [Promo Video](https://youtube.com/shorts/NgGX7Fa_VBY?feature=share)
+- [Roboflow Demo](https://demo.roboflow.com/mobile-phone-detection-in-school-enviroments/4?publishable_key=rf_A6mo3q77HZP47Qtx9dTkzLUmnVA3)

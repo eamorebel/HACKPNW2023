@@ -1,4 +1,4 @@
-# JPS2023
+# HACKPNW 2023
 
 ## Inspiration
 
